@@ -13,8 +13,7 @@
                             {{ session('status') }}
                         </div>
                     @endif
-
-                    {{ __('You are logged in!') }}
+                    <a href="{{ route('products.index') }}" class="btn btn-primary btn-lg">Produtos</a>
                 </div>
             </div>
         </div>
