@@ -1,5 +1,5 @@
 
-#Neste repositório aplico a utilização do Laravel Observer em um crud de produtos com histórico de alteração de preços.
+##Neste repositório aplico a utilização do Laravel Observer em um crud de produtos com histórico de alteração de preços.
 
 ##Requisitos: **Composer versão 2.0 **Laravel 8 **PHP 7.3
 
