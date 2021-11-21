@@ -25,7 +25,7 @@ class UpdateProductRequest extends FormRequest
     public function rules()
     {
         return [
-            'name'  =>  ['required','min:10',"max:150','unique:products,name,{$this->id}"],
+            'name'  =>  ["required","min:10","max:150","unique:products,name,{$this->id},id"],
             'price' =>  'required|numeric|min:0',
             'file'  =>  'nullable|image',
             'slug'  =>  'required_with:name'
